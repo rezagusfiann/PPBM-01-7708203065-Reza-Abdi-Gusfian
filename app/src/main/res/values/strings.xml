@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Sneakidro!</string>
+    <string name="judul">Judul</string>
+    <string name="judul1">Hello Lads!</string>
+    <string name="judul2">Free Delivery</string>
+    <string name="judul3">Easy Order</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="cekidot">Check it out!</string>
+
+    //Login
+    <string name="app_logo">SNEAKIDRO</string>
+    <string name="cloud">Cloud</string>
+    <string name="sneakidro">Sneakidro</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Masukkan Email anda</string>
+    <string name="password">Password</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="password_hint">Masukkan sandi anda</string>
+    <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+    <string name="login_button">Login</string>
+    <string name="or_login_with">or login with</string>
+    <string name="belum_punya_akun_register">belum punya akun ? Register</string>
+    <string name="email_inv">Email tidak ada</string>
+    <string name="pass_empty">Password kosong</string>
+
+    //onboarding
+    <string name="des">Deskripsi</string>
+    <string name="des1">Selamat datang di Sneakidro \n
+        Yuk cuci sepatu kalian agar bisa tampil \n
+        berani imut lucu dan lincah.</string>
+    <string name="des2">Dengan pengantaran dan penjemputan \n
+        sepatu gratis, anda bisa tenang duduk \n
+        manis menunggu kurir kami.</string>
+    <string name="des3">Order secara mudah setiap saat dengan \n
+        gadgetmu.</string>
+
+    //register
+    <string name="register">Register</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nomorHp">Nomor HP</string>
+    <string name="nama_hint">Masukan nama lengkap</string>
+    <string name="nomorhp_hint">Masukan nomor anda</string>
+    <string name="konfirm_password">Konfirm password</string>
+    <string name="sudah_punya_akun_login">Sudah punya akun? Login</string>
+    <string name="nama_kosong">Nama Tidak boleh kosong</string>
+    <string name="panjang_nama">Nama harus > 5</string>
+    <string name="no_hp_kosong">Nomor tidak boleh kosong</string>
+    <string name="panjang_nomor">Nomor harus > 10</string>
+    <string name="pass_kosong">Password kosong</string>
+    <string name="pass_min_length">Password harus lebih dari 6</string>
+    <string name="nama_exist">Nama sudah ada</string>
+
+    //navbar
+    <string name="home_navbar_text">Home</string>
+    <string name="profile_navbar_text">Profile</string>
+    <string name="order_navbar_text">Order</string>
+
+    //profil
+    <string name="lokasi">Lokasi tidak ditemukan</string>
+    <string name="profil_text">Profil</string>
+    <string name="edit_foto">Edit Foto</string>
+    <string name="nama_text">Fulan</string>
+    <string name="nama_title">Nama</string>
+    <string name="email_text">fulanganteng@gmail.com</string>
+    <string name="email_title">Email</string>
+    <string name="alamat_title">Alamat</string>
+    <string name="alamat_text">Bandung</string>
+    <string name="telepon_text">082157438817</string>
+    <string name="telepon_title">Telepon</string>
+    <string name="edit_button">Simpan Profil</string>
+    <string name="logout_button">Logout</string>
+    <string name="update_alamat">Silakan update alamat anda</string>
+    <string name="lokasi_button">Pilih Lokasi</string>
+    <string name="open_place_picker">Open Place Picker</string>
+
+    //Deep Cleaning
+    <string name="deep_clean">Deep Cleaning</string>
+    <string name="pesan">Pesan Sekarang</string>
+    <string name="des_deep">Deep Cleaning yaitu paket cuci sepatu seluruh bagian luar dan dalam secara maksimal, kami menerima berbagai macam jenis sepatu. Deep Cleaning ini khusus untuk sepatu yang sangat kotor dan juga terdapat noda yang susah dihilangkan.
+    </string>
+    <string name="des_harga">Harga mulai dari Rp. 40.000</string>
+    <string name="jenis_sepatu">Jenis Sepatu : Canvas, Suede, dll</string>
+    <string name="catatan">Catatan: Ukuran, merk, warna, dll</string>
+    <string name="jumlah_sepatu">Jumlah Pasang Sepatu</string>
+    <string name="cod">Cash On Delivery (COD)</string>
+    <string name="bca">\ Transfer Mandiri</string>
+    <string name="psn">Pesan</string>
+    <string name="email_dc">Email :</string>
+    <string name="metode_dc">Metode Pembayaran</string>
+    <string name="dc">Deep Cleaning</string>
+    <string name="kategori_dc">Kategori</string>
+
+    //soft cleaning
+    <string name="soft_cleani">\Soft Cleaning</string>
+    <string name="des_soft_cleani">Soft Cleaning yaitu paket cuci sepatu seluruh bagian luar dan dalam secara halus, kami menerima berbagai macam jenis sepatu. Soft Cleaning ini khusus untuk sepatu yang tidak terlalu kotor atau terdapat noda yang mudah dihilangkan.</string>
+    <string name="soft_price">Harga mulai dari Rp. 30.000</string>
+    <string name="pesan_button">Pesan Sekarang</string>
+    <string name="select_home">Select your choice</string>
+
+    //Riwayat Pemesanan
+    <string name="riwayat_pemesanan">Riwayat Pemesanan</string>
+    <string name="pesanan">Tidak ada pesanan yang diproses.</string>
+
+    //Pesan Sekarang
+    <string name="pilih_kategori">Pilih Kategori</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="loading_text">Loading.....</string>
+
+    //Detail Pemesanan
+    <string name="detail_pesan">Detail Pemesanan</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="nama_pemesan">Nama pemesan :</string>
+    <string name="user">Badrun</string>
+    <string name="no_hp">No HP :</string>
+    <string name="no_hp_user">082115397373</string>
+    <string name="email_user">lakabadrun@gmail.com</string>
+    <string name="kategori_pemesanan">Kategori :</string>
+    <string name="jenis_pesan">Jenis Sepatu :</string>
+    <string name="sepatu_user">\ Sneakers</string>
+    <string name="status_user">\ Belum bayar</string>
+    <string name="total_harga">Total Harga :</string>
+    <string name="harga_user">40.000</string>
+    <string name="x">\ x</string>
+    <string name="satu">\ 1</string>
+    <string name="metode">Metode Pembayaran :</string>
+    <string name="norek">1050015386414</string>
+    <string name="A_N">A/N Reza Z</string>
+    <string name="status">Status :</string>
+
+    //Mekanisme Pembayaran
+    //COD
+    <string name="cara_pembayaran">Mekanisme</string>
+    <string name="jika_metode">Jika metode pembayaran yang dipilih adalah Cash On Delivery:</string>
+    <string name="klik_pesanan">1. Klik pesanan yang ada di riwayat pemesanan.</string>
+    <string name="setelah_diklik">2. Setelah di klik akan muncul detail pemesanan.</string>
+    <string name="kemudian">3. Kemudian pada page detail pemesanan klik logo Whatsapp yang ada di bawah pojok kanan.</string>
+    <string name="kemudian_setelah">4. Setelah klik logo Whatsapp, pengguna akan dilanjutkan chat ke nomor admin.</string>
+    <string name="kemudian_klik">Jika metode pembayaran yang dipilih adalah Cash On Delivery:</string>
+
+    //Transfer Bank
+    <string name="bank_detail">Transfer Bank</string>
+    <string name="jika_bank">Jika metode pembayaran yang dipilih adalah Transfer Bank:</string>
+    <string name="klik_bank">1. Klik pesanan yang ada di riwayat pemesanan.</string>
+    <string name="kemudian_pada_bank">3. Kemudian pada page detail pemesanan dibawah pesanan akan tertera no ATM admin.</string>
+    <string name="kemudian_setelah_bank">4. Kemudian setelah melakukan transaksi, pengguna dapat mengirimkan bukti konfirmasi pembayaran lewat Whatsapp.</string>
+    <string name="kemudian_bank">2. Setelah di klik akan muncul detail pemesanan.</string>
+    <string name="kemudian_klik_bank">5. Kemudian klik logo Whatsapp yang berada di pojok kanan bawah, pengguna akan dilanjutkan chat ke nomor admin setelah itu kirim bukti konfirmasi pembayaran yang telah dilakukan.</string>
+
+    //User Order Item
+    <string name="tot_harga">40.000</string>
+    <string name="sc_userorder">Soft Cleaning</string>
+    <string name="sneakers_userorder">Sneakers</string>
+    <string name="belum">belum</string>
+    <string name="tot">Total Harga :</string>
+    <string name="satu_uo">1</string>
+    <string name="rp">\ = Rp.</string>
+
+    //desc
+    <string name="wa_desc">Whatsapp</string>
+    <string name="back_desc">back</string>
+    <string name="qm_desc">help</string>
+    <string name="clean_desc">clean</string>
+    <string name="bca_desc">mandiri</string>
+    <string name="desc_sneakidro">logo</string>
+    <string name="desc_barang">Deskripsi Barang</string>
+    <string name="cloud_desc">awan</string>
+    <string name="ill_desc">ilustrasi</string>
+    <string name="uo_desc">user order</string>
+    <string name="onboard_image">image</string>
+
+    //Batalkan Pesanan
+    <string name="batalkan_pesanan">Batalkan Pesanan</string>
+    <string name="jika_batal">Jika ingin membatalkan pesanan:</string>
+    <string name="jika_batal_satu">1. Tekan pesanan yang berada di riwayat pemesanan selama 1 sampai 2 detik sampai muncul tab Opsi Batalkan Pesanan.</string>
+    <string name="jika_batal_dua">2. Setelah muncul tab Opsi Batalkan Pesanan, kemudian klik Batalkan Pesanan</string>
+    <string name="jika_batal_tiga">3. Kemudian pesanan telah berhasil dibatalkan.</string>
+
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/shadow"
+        android:paddingBottom="10dp"
+        tools:context=".fragments.ProfileFragment">
+
+        <TextView
+            android:id="@+id/ProfilText"
+            android:layout_width="291dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/profil_text"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_reguler"
+            android:text="@string/lokasi"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewProfil"
+            android:layout_width="189dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_person"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ProfilText" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="@color/gray"
+            android:contentDescription="@string/edit_foto"
+            android:src="@drawable/ic_camera"
+            app:backgroundTint="@color/black"
+            app:borderWidth="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewProfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewProfil"
+            app:layout_constraintVertical_bias="0.142" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:background="@color/semi_gray"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewProfil">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/namaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="250dp"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/nama_title"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/namaText"
+            app:layout_constraintStart_toStartOf="@+id/namaText"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewProfil" />
+
+        <TextView
+            android:id="@+id/namaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_input_profil"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="bottom"
+            android:hint=""
+            android:paddingStart="12dp"
+            android:paddingEnd="0dp"
+            android:paddingTop="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewProfil" />
+
+        <TextView
+            android:id="@+id/emailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_reguler"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="250dp"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/email_title"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:labelFor="@id/emailText"
+            app:layout_constraintEnd_toEndOf="@+id/emailText"
+            app:layout_constraintStart_toStartOf="@+id/emailText"
+            app:layout_constraintTop_toBottomOf="@+id/namaText" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_input_profil"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="bottom"
+            android:hint=""
+            android:paddingStart="12dp"
+            android:paddingEnd="0dp"
+            android:paddingTop="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/namaText" />
+
+        <TextView
+            android:id="@+id/teleponTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="235dp"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/telepon_title"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:labelFor="@+id/teleponText"
+            app:layout_constraintEnd_toEndOf="@+id/teleponText"
+            app:layout_constraintStart_toStartOf="@+id/teleponText"
+            app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/teleponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_input_profil"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="bottom"
+            android:inputType="number"
+            android:paddingStart="12dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="0dp"
+            android:textColorHint="@color/black"
+            android:maxLength="12"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+        <TextView
+            android:id="@+id/alamatTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="27dp"
+            android:layout_marginEnd="235dp"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/alamat_title"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:labelFor="@id/alamatText"
+            app:layout_constraintEnd_toEndOf="@+id/alamatText"
+            app:layout_constraintStart_toStartOf="@+id/alamatText"
+            app:layout_constraintTop_toBottomOf="@+id/teleponText" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alamatText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_input_profil"
+            android:fontFamily="@font/poppins_reguler"
+            android:gravity="bottom"
+            android:paddingStart="12dp"
+            android:paddingEnd="0dp"
+            android:paddingTop="20dp"
+            android:inputType="textMultiLine"
+            android:hint="@string/update_alamat"
+            android:fadeScrollbars="false"
+            android:overScrollMode="always"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideInset"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/teleponText" />
+
+        <Button
+            android:id="@+id/lokasiButton"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/lokasi_button"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alamatText"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/edit_button"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lokasiButton"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/logout_button"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editButton"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

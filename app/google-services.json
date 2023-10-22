@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898946448185",
+    "firebase_url": "https://sneakidro-b5c47-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sneakidro-b5c47",
+    "storage_bucket": "sneakidro-b5c47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898946448185:android:c7f83fbcc630d2c51dc6e8",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.sneakidro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898946448185-29s3g6leq2psjpehoinvbfm7rppqlprp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.sneakidro",
+            "certificate_hash": "eef57cc9abe7d3182134dab88e5191fc3f09af7a"
+          }
+        },
+        {
+          "client_id": "898946448185-kiptn6rcelm1qvv9nankf68pfiq2np7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhiXIEyzTRHSHJq7ahtXz1E25Fkg2YZLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898946448185-kiptn6rcelm1qvv9nankf68pfiq2np7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
